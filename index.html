@@ -6,23 +6,19 @@
   <title>Asociación Musical Almorox</title>
    <link rel="stylesheet" href="css/style.css">
 </head>
-<script>
-function toggleMenu(){
-  document.getElementById("menu").classList.toggle("open");
-}
-</script>
+
 <body>
 	<!-- Botón menú -->
 	<div class="menu-btn" onclick="toggleMenu()">☰</div>
 
 	<!-- Menú desplegable -->
-	<nav id="menu" class="menu">
-	  <a href="index.html">Inicio</a>
-	  <a href="historia.html">Historia</a>
-	  <a href="agenda.html">Agenda</a>
-	  <a href="repertorio.html">Repertorio</a>
-	  <a href="fotos.html">Fotos</a>
-	</nav>
+<nav id="menu" class="menu">
+  <a href="index.html" onclick="toggleMenu()">Inicio</a>
+  <a href="historia.html" onclick="toggleMenu()">Historia</a>
+  <a href="agenda.html" onclick="toggleMenu()">Agenda</a>
+  <a href="repertorio.html" onclick="toggleMenu()">Repertorio</a>
+  <a href="fotos.html" onclick="toggleMenu()">Fotos</a>
+</nav>
   <div class="wrap">
     <div class="card">
       <div class="logo" style="background-image:url('assets/logo.png');"></div>
@@ -58,5 +54,10 @@ function toggleMenu(){
       <footer>© Asociación Musical Almorox</footer>
     </div>
   </div>
+  <script>
+function toggleMenu(){
+  document.getElementById("menu").classList.toggle("open");
+}
+</script>
 </body>
 </html>
