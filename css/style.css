@@ -173,11 +173,13 @@
 	/* botón hamburguesa */
 .menu-btn{
   position: fixed;
-  top: 20px;
-  left: 20px;
-  font-size: 30px;
-  cursor: pointer;
-  z-index: 1001;
+  top: 15px;
+  left: 15px;
+  font-size: 32px;
+  padding: 10px 14px;
+  background: white;
+  border-radius: 8px;
+  z-index: 9999;
 }
 
 /* menú oculto */
