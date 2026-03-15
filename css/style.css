@@ -175,8 +175,8 @@
   position: fixed;
   top: 15px;
   left: 15px;
-  font-size: 32px;
-  padding: 10px 14px;
+  font-size: 34px;
+ /* padding: 10px 14px;*/
   border-radius: 8px;
   z-index: 9999;
 }
