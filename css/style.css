@@ -18,7 +18,7 @@
 		box-sizing:border-box
 	}
     .card{
-		width:100%;
+		width:95%;
 		--max-width:420px;
 		width:clamp(90%, 80vw, 1600px);
 		margin: 0 auto;
