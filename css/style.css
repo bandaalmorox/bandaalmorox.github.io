@@ -19,7 +19,9 @@
 	}
     .card{
 		width:100%;
-		max-width:420px;
+		--max-width:420px;
+		width:clamp(90%, 80vw, 1600px);
+		margin: 0 auto;
 		background:rgba(255,255,255,0.03);
 		backdrop-filter:blur(4px);
 		padding:28px;
